@@ -12,7 +12,7 @@ const indicato = document.querySelector("#number-indicator")
 const dispe = document.querySelector("#display-heading")
 
 button10.addEventListener('click', () => {
-  disp.textContent = "added 10"
+  dispe.textContent = "added 10"
   indicator.textContent = (parseInt(indicator.textContent) + 10).toString()
 })
 
@@ -21,7 +21,7 @@ const indicat = document.querySelector("#number-indicator")
 const dispen = document.querySelector("#display-heading")
 
 button15.addEventListener('click', () => {
-  disp.textContent = "added 15"
+  dispen.textContent = "added 15"
   indicator.textContent = (parseInt(indicator.textContent) + 15).toString()
 })
 
@@ -30,6 +30,6 @@ const indica = document.querySelector("#number-indicator")
 const dispens = document.querySelector("#display-heading")
 
 button20.addEventListener('click', () => {
-  disp.textContent = "added 20"
+  dispens.textContent = "added 20"
   indicator.textContent = (parseInt(indicator.textContent) + 20).toString()
 })
